@@ -1,0 +1,55 @@
+{
+  "snapshot_date": "2026-10-21",
+  "scope": "Learning-engine source extracted from the existing Northstar project; private media, curriculum, credentials and records are not distributed.",
+  "files": [
+    {
+      "source": "js/storage.js",
+      "public": "core/storage.js",
+      "source_sha256": "a6e74cf422f3c3d52d91727fcf9e5e3919a3db86ab5fa4d4e44ace463142fa64",
+      "public_sha256": "ea606c2744cf02bf9246840e0d57caf9e623e0b8ed5c3416b4d453754a6ad462",
+      "changes": "Separate public-preview database name; remove automatic persistent-storage request."
+    },
+    {
+      "source": "js/review-engine.js",
+      "public": "core/review-engine.js",
+      "source_sha256": "6131d290e99aed1b4967d249bbe5b9f1bfbd1ba61983be67c300ccab794d6a4f",
+      "public_sha256": "6131d290e99aed1b4967d249bbe5b9f1bfbd1ba61983be67c300ccab794d6a4f",
+      "changes": "Unmodified source snapshot."
+    },
+    {
+      "source": "js/speaking-progress.js",
+      "public": "core/speaking-progress.js",
+      "source_sha256": "edb348b9653a9094876420c8b45ffc3a8297f7fdb96816d149ebe4c421190fd7",
+      "public_sha256": "edb348b9653a9094876420c8b45ffc3a8297f7fdb96816d149ebe4c421190fd7",
+      "changes": "Unmodified source snapshot."
+    },
+    {
+      "source": "js/learning-results.js",
+      "public": "core/learning-results.js",
+      "source_sha256": "a960b589dfecb3b95d1cc18de2ec6469411720ada24aa96e6feb6838ab187761",
+      "public_sha256": "a960b589dfecb3b95d1cc18de2ec6469411720ada24aa96e6feb6838ab187761",
+      "changes": "Unmodified source snapshot."
+    },
+    {
+      "source": "js/animation-curriculum.js",
+      "public": "core/animation-curriculum.js",
+      "source_sha256": "045030e7c3f42368c4bce071829364488c9c77fa155e0ad9f53094b35187b4d7",
+      "public_sha256": "045030e7c3f42368c4bce071829364488c9c77fa155e0ad9f53094b35187b4d7",
+      "changes": "Unmodified source snapshot."
+    },
+    {
+      "source": "js/rewards.js",
+      "public": "core/rewards.js",
+      "source_sha256": "2e14c15a86ff18f42f99a2f245c6d1979b8a23650aef59ba1e6dd0ed3b28406d",
+      "public_sha256": "2e14c15a86ff18f42f99a2f245c6d1979b8a23650aef59ba1e6dd0ed3b28406d",
+      "changes": "Unmodified source snapshot."
+    },
+    {
+      "source": "js/tencent-soe.js",
+      "public": "adapters/tencent-soe.js",
+      "source_sha256": "51bf8a7922a821660684c74e902524df2a6a3e3dc2ea6057d79f5cf14ff125ec",
+      "public_sha256": "51bf8a7922a821660684c74e902524df2a6a3e3dc2ea6057d79f5cf14ff125ec",
+      "changes": "Unmodified optional adapter; not loaded by the demo."
+    }
+  ]
+}
